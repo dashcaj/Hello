@@ -22,6 +22,9 @@ function returnInput(input) {
   return output;
 }
 
+
+
+//this is algorithm
 function rockPaperScissors(input) {
   const random = Math.floor(Math.random() * 100);
   let opponentChoice;
@@ -37,6 +40,8 @@ function rockPaperScissors(input) {
     }
   }
 
+
+  
   if (opponentChoice == "rock") {
     if (input == 1) {
       outcome = "win";
