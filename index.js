@@ -1,10 +1,22 @@
-function factorial(n){
-    result = 1
-    for(let i = 1; i <= n; i++){
-        result *= i
-    }
 
-    return result
+
+function getBinary(D){
+    if(D % 2 === 0){
+        
+    }
+    
 }
 
-console.log(factorial(15))
+
+
+/* function findparking(N, today, yesterday){
+    let count = 0;
+    for(let i = 0; i < N; i++){
+        if(yesterday[i] === 'C' && today[i] === 'C'){
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(findparking(5, "CC..C", "CCCCC")); */
