@@ -1,11 +1,37 @@
 
 
-function getBinary(D){
-    if(D % 2 === 0){
-        
-    }
+//check the all numbers in binary code
+//multiply those numbers by their respective power of 2
+//add all the numbers up
+
+function getDecimal(B, powerof2, decimal, addition){
     
+    let length = B.length()
+    for(let i = 0; i < length; i++){
+        
+        return i; 
+    }
+
+    let powerof2 = Math.pow(2, i)
+    let decimal = 0
+    
+    let addition = length.forEach((position) => powerof2*position)
+
+    console.log(addition +)
 }
+
+getDecimal(1011);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
