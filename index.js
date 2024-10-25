@@ -1,30 +1,41 @@
 
 
-//check the all numbers in binary code
-//multiply those numbers by their respective power of 2
-//add all the numbers up
+//get remainders 
 
-function getDecimal(B, powerof2, decimal, addition){
-    
-    let length = B.length()
-    for(let i = 0; i < length; i++){
-        
-        return i; 
+function getBinary(D){
+    let binary = 0;
+    //keep dividing D by 2. and return the remainder
+    while(D/2 !== 0){
+        return D%2;
     }
 
-    let powerof2 = Math.pow(2, i)
-    let decimal = 0
-    
-    let addition = length.forEach((position) => powerof2*position)
+    console.log(remainder)
 
-    console.log(addition +)
+    
 }
 
-getDecimal(1011);
+console.log(getBinary("2"))
 
 
 
 
+
+
+
+
+
+/* function btd(binary){
+    let decimal = 0;
+    for(let i = 0; i<binary.length; i++){
+        if(binary[binary.length - i - 1] === "1"){
+            decimal = decimal + Math.pow(2, i);
+        }
+        
+    }
+    return decimal;
+}
+
+console.log(btd("101011")); */
 
 
 
