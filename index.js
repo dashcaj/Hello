@@ -1,5 +1,3 @@
-
-
 /* //get remainders 
 
 function getBinary(D){
