@@ -1,6 +1,6 @@
 
 
-//get remainders 
+/* //get remainders 
 
 function getBinary(D){
     let binary = 0;
@@ -15,15 +15,7 @@ function getBinary(D){
 }
 
 console.log(getBinary("2"))
-
-
-
-
-
-
-
-
-
+ */
 /* function btd(binary){
     let decimal = 0;
     for(let i = 0; i<binary.length; i++){
@@ -39,21 +31,20 @@ console.log(btd("101011")); */
 
 
 
-
-
-
-
-
-
-
-/* function findparking(N, today, yesterday){
-    let count = 0;
-    for(let i = 0; i < N; i++){
-        if(yesterday[i] === 'C' && today[i] === 'C'){
-            count++;
+function fizzbuzz(n){
+    let array = []
+    for(i = 0; i < n; i++){
+        if(i%3 === 0){
+            array.push("fizz")
+        } 
+        else if(i%5 === 0){
+            array.push("buzz")
         }
-    }
-    return count;
-}
+        else{
+            array.push(i)
+        }
+    };
+    
+};
 
-console.log(findparking(5, "CC..C", "CCCCC")); */
+console.log(fizzbuzz(15))
