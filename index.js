@@ -31,7 +31,7 @@ console.log(btd("101011")); */
 
 function fizzbuzz(n){
     let array = []
-    for(i = 0; i < n; i++){
+    for(let i = 0; i <= n; i++){
         if(i%3 === 0){
             array.push("fizz")
         } 
@@ -42,7 +42,7 @@ function fizzbuzz(n){
             array.push(i)
         }
     };
-    
+    return array;
 };
 
-console.log(fizzbuzz(15))
+console.log(fizzbuzz(10));
