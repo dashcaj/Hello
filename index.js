@@ -45,4 +45,4 @@ function fizzbuzz(n){
     return array;
 };
 
-console.log(fizzbuzz(10));
+console.log(fizzbuzz(20));
